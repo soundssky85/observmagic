@@ -1,0 +1,181 @@
+html{
+	font-size: 1rem;
+}
+
+.fixed-top{
+	background: rgba(0, 0, 0, 0.60);
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(253, 252, 252, 0.9);
+    font-size: 1.5rem;
+}
+
+
+.light .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.98);
+}
+.navbar-toggler {
+    font-size: 1.6rem;	
+    color: #FFFFFF !important;	
+} 
+
+.navbar-light .navbar-nav .active>.nav-link {
+        color: rgb(251, 248, 248);
+        background: #205a98;
+        border-radius: 8px;
+        margin: 7px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(251, 248, 248);
+    text-align: center;
+    margin: .2rem 0;
+    padding: .8rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(251, 248, 248);
+    background: #205a98;;   
+}
+
+body{
+	background-color:  white;
+}
+.bienvenidos{
+	background: url("../images/Fondobienvenidos.jpg");
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+
+.texto-bienvenidos{
+    color: #fff;
+    margin-top: 12.5rem;
+}
+
+.btn-primary{
+	background: #205a98;
+	border-color: #0f105f;
+}
+
+/* background: #205a98; */
+.btn-primary:hover {
+    background-color: #7aa3d0;
+    border-color: #7aa3d0;
+    transition: all .5s ease;
+}
+
+
+/* Estilo bloque quienes Somos
+ */
+
+ .quienes-somos{
+ 	background: #205a98;
+ 	color: #FFF;
+ }
+
+.btn-secondary {
+    background: #fffefe;
+    border-color: #4241416b;
+    color: black;
+}
+
+/* Estilo bloque servicios */
+
+.servicios .fas{
+    color: #205a98;
+    font-size: 6rem;
+}
+
+.servicios .h4{
+    font-weight: bold;
+}
+
+
+/* Seccion portafolio */
+
+.portafolio{
+	background: #424141;
+	color: #FFF;
+}
+
+/* .portafolio a{
+	display: block;
+	overflow: hidden; 
+} */
+
+/* .portafolio img{
+    transition: all 1s;
+}
+
+.portafolio a:hover img{
+    transform: scale(1.1);
+}  */
+
+/* Portafolio svg animacion normal - Si se agranda el fondo de una imagen sin nescesidad de colocar un svg para el interior */
+
+.portafolio a{
+    display: block;
+    overflow: hidden; 
+    margin-bottom: 1.5rem;
+}
+
+.portafolio img{
+    transition: all .3s ease;
+    min-width: 100%;
+}
+
+.portafolio a:hover img{
+    transform: scale(1.5);
+}
+
+
+
+
+
+/* Clase para mirar marcas de sistema de columnas */
+.portafolio .row div{
+	/* border: 1px solid #ff00001c;  */
+}
+
+/* .col-md-4{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+} */
+
+/* .col-md-4 img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
+}  */
+
+
+/* Estilos bloque pied d pagina */
+
+.footer{
+    color: #fff;
+    background: #222222;
+}
+
+
+/*Media queries  */
+
+@media(min-width: 768px){
+    html{
+        font-size: 18px;
+    }
+    .bienvenidos{
+        background: url("../images/fondo-bienvenido-grande.jpg");
+        background-size: cover;
+
+    }
+
+}
